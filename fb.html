@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="fb.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="h_1">
+                <a class="log_text" href="fb.html">facebook</a>
+            </div>
+            <div class="h_2">
+                <form action="">
+                    <table class="table">
+                        <tr>
+                            <td><label class="log-1">email or phone</label></td>
+                            <td><label class="log-1">password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="submit" value="login" class="but"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><a href="forgot.html" class="link">forgot password</a></td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+        </div>
+        <div class="main_body">
+            <div class="left_section">
+                <p class="para">Facebook helps you connect and share with <br> the people in your life.</p>
+                <img src="151266852_10160493570331729_4855471584851498671_n.jpg" alt="fb_image" class="img_1">
+            </div>
+            <div class="right_section">
+                <h class="heading">Create an account</h>
+                <p class="para1">It's super easy</p>
+                <br>
+                <div style="width: 100%;background-color: rgb(0, 157, 255);">
+                    <form id="signupForm">
+                        <input type="text" name="fname" placeholder="First name" class="but_1">
+                        <input type="text" name="sname" placeholder="Surname" class="but_1">
+                        <br><br>
+                        <input type="text" name="number" placeholder="phone no" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}"
+                            class="but_2"><br><br>
+                        <input type="email" name="mail" placeholder="email" class="but_2"><br><br>
+                        <input type="text" name="password" placeholder="New password" class="but_2"><br><br>
+                        <label style="font-size: large;color: black;">Birthday</label><br>
+                        <input type="date" id="birthday" name="birthday"><br><br>
+                        <label for="gender" style="font-size: larger;color: black;">Gender</label><br>
+                        <input type="radio" name="gend">
+                        <label style="font-size: larger;color: black">man</label>
+                        <input type="radio" name="gend">
+                        <label style="font-size: larger;color: black">woman</label>
+                        <p style="font-size: small;color: black">By clicking Sign Up, you agree to our <a
+                                href="oxl,.html"> Terms, Data Policy <br> and Cookie Policy</a>. You may receive SMS
+                            notifications from <br> us and can opt out at any time.</p><br>
+                        <input type="submit" value="Sign up" class="but_3">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.js"></script>
+    <script src="valio.js"></script>
+</body>
+
+</html>
